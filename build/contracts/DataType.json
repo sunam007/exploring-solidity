@@ -1,0 +1,220 @@
+{
+  "contractName": "DataType",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "myUint8",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xe2a4b2af"
+    }
+  ],
+  "bytecode": "0x60806040526078600055348015601457600080fd5b50609e806100236000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e2a4b2af146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a723058207b844a8744efe39f68a76e0ae63361ab18fe430ed7583e5ca721ea85b8912c9e0029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e2a4b2af146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a723058207b844a8744efe39f68a76e0ae63361ab18fe430ed7583e5ca721ea85b8912c9e0029",
+  "sourceMap": "68:54:1:-;;;115:3;93:25;;68:54;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:54:1;;;;;;;",
+  "deployedSourceMap": "68:54:1:-;;;;;;;;;;;;;;;;;;;;;;;;93:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;93:25:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract DataType {\r\n    uint public myUint8 = 120;\r\n}",
+  "sourcePath": "D:/asaduzzaman_sunam/solidity-intro/contracts/SolDataType.sol",
+  "ast": {
+    "absolutePath": "/D/asaduzzaman_sunam/solidity-intro/contracts/SolDataType.sol",
+    "exportedSymbols": {
+      "DataType": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "DataType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "myUint8",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "93:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "93:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "313230",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "115:3:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_120_by_1",
+                "typeString": "int_const 120"
+              },
+              "value": "120"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "68:54:1"
+      }
+    ],
+    "src": "33:89:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/asaduzzaman_sunam/solidity-intro/contracts/SolDataType.sol",
+    "exportedSymbols": {
+      "DataType": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "DataType",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "myUint8",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "93:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "93:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "313230",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "115:3:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_120_by_1",
+                "typeString": "int_const 120"
+              },
+              "value": "120"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "68:54:1"
+      }
+    ],
+    "src": "33:89:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x8c9Ea8f44aaC1FB378771fDcf87F1c507f58d672",
+      "transactionHash": "0x61c8ea8953969973224a68a0e4817f5d6e76849eed6f0971719af41b712e32cd"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2024-11-21T11:04:56.059Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
