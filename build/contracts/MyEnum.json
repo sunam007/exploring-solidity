@@ -1,0 +1,3503 @@
+{
+  "contractName": "MyEnum",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "currentStatus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xef8a9235"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "setShipped",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x6b525776"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "setDelivered",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xc33e43a1"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "setCancel",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xd2618baf"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "viewStatus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xac60a269"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506000805460ff1916815561050290819061002b90396000f3fe60806040526004361061006c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636b5257768114610071578063ac60a269146100fb578063c33e43a114610110578063d2618baf14610125578063ef8a92351461013a575b600080fd5b34801561007d57600080fd5b50610086610173565b6040805160208082528351818301528351919283929083019185019080838360005b838110156100c05781810151838201526020016100a8565b50505050905090810190601f1680156100ed5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561010757600080fd5b50610086610210565b34801561011c57600080fd5b50610086610395565b34801561013157600080fd5b50610086610431565b34801561014657600080fd5b5061014f6104cd565b6040518082600381111561015f57fe5b60ff16815260200191505060405180910390f35b606080600160005460ff16600381111561018957fe5b146101d65750506000805460ff1916600117905560408051808201909152600781527f5368697070656400000000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152600f81527f416c72656164792053686970706564000000000000000000000000000000000060208201525b90565b60606000805460ff16600381111561022457fe5b1415610264575060408051808201909152600781527f50656e64696e6700000000000000000000000000000000000000000000000000602082015261020d565b600160005460ff16600381111561027757fe5b14156102b7575060408051808201909152600781527f5368697070656400000000000000000000000000000000000000000000000000602082015261020d565b600260005460ff1660038111156102ca57fe5b141561030a575060408051808201909152600981527f44656c6976657265640000000000000000000000000000000000000000000000602082015261020d565b600360005460ff16600381111561031d57fe5b141561035d575060408051808201909152600981527f43616e63656c6c65640000000000000000000000000000000000000000000000602082015261020d565b5060408051808201909152600e81527f556e6b6e6f776e20537461747573000000000000000000000000000000000000602082015290565b606080600260005460ff1660038111156103ab57fe5b146103f85750506000805460ff1916600217905560408051808201909152600981527f44656c6976657265640000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152601181527f416c72656164792044656c697665726564000000000000000000000000000000602082015290565b606080600360005460ff16600381111561044757fe5b146104945750506000805460ff1916600317905560408051808201909152600981527f43616e63656c6c65640000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152601181527f416c72656164792043616e63656c6c6564000000000000000000000000000000602082015290565b60005460ff168156fea165627a7a7230582032b7aa4b6ab443867fca20818d9c5e2f6b5b53d8bdcbca456d63a01a9a5de22e0029",
+  "deployedBytecode": "0x60806040526004361061006c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636b5257768114610071578063ac60a269146100fb578063c33e43a114610110578063d2618baf14610125578063ef8a92351461013a575b600080fd5b34801561007d57600080fd5b50610086610173565b6040805160208082528351818301528351919283929083019185019080838360005b838110156100c05781810151838201526020016100a8565b50505050905090810190601f1680156100ed5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561010757600080fd5b50610086610210565b34801561011c57600080fd5b50610086610395565b34801561013157600080fd5b50610086610431565b34801561014657600080fd5b5061014f6104cd565b6040518082600381111561015f57fe5b60ff16815260200191505060405180910390f35b606080600160005460ff16600381111561018957fe5b146101d65750506000805460ff1916600117905560408051808201909152600781527f5368697070656400000000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152600f81527f416c72656164792053686970706564000000000000000000000000000000000060208201525b90565b60606000805460ff16600381111561022457fe5b1415610264575060408051808201909152600781527f50656e64696e6700000000000000000000000000000000000000000000000000602082015261020d565b600160005460ff16600381111561027757fe5b14156102b7575060408051808201909152600781527f5368697070656400000000000000000000000000000000000000000000000000602082015261020d565b600260005460ff1660038111156102ca57fe5b141561030a575060408051808201909152600981527f44656c6976657265640000000000000000000000000000000000000000000000602082015261020d565b600360005460ff16600381111561031d57fe5b141561035d575060408051808201909152600981527f43616e63656c6c65640000000000000000000000000000000000000000000000602082015261020d565b5060408051808201909152600e81527f556e6b6e6f776e20537461747573000000000000000000000000000000000000602082015290565b606080600260005460ff1660038111156103ab57fe5b146103f85750506000805460ff1916600217905560408051808201909152600981527f44656c6976657265640000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152601181527f416c72656164792044656c697665726564000000000000000000000000000000602082015290565b606080600360005460ff16600381111561044757fe5b146104945750506000805460ff1916600317905560408051808201909152600981527f43616e63656c6c65640000000000000000000000000000000000000000000000602082015261020d565b505060408051808201909152601181527f416c72656164792043616e63656c6c6564000000000000000000000000000000602082015290565b60005460ff168156fea165627a7a7230582032b7aa4b6ab443867fca20818d9c5e2f6b5b53d8bdcbca456d63a01a9a5de22e0029",
+  "sourceMap": "68:2007:0:-;;;485:122;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;533:14:0;517:30;;-1:-1:-1;;517:30:0;;;68:2007;;;;;;;;",
+  "deployedSourceMap": "68:2007:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;656:311;;8:9:-1;5:2;;;30:1;27;20:12;5:2;656:311:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;656:311:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1601:469;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1601:469:0;;;;975:316;;8:9:-1;5:2;;;30:1;27;20:12;5:2;975:316:0;;;;1299:294;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1299:294:0;;;;412:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;412:27:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;656:311;695:13;;774:14;757:13;;;;:31;;;;;;;;;754:160;;-1:-1:-1;;806:13:0;:30;;-1:-1:-1;;806:30:0;822:14;806:30;;;851:19;;;;;;;;;;;;;;;;;887:14;;754:160;-1:-1:-1;;933:26:0;;;;;;;;;;;;;;;;;656:311;;:::o;1601:469::-;1645:13;1693:14;1676:13;;;;:31;;;;;;;;;1673:79;;;-1:-1:-1;1724:16:0;;;;;;;;;;;;;;;;;;;1673:79;1782:14;1765:13;;;;:31;;;;;;;;;1762:79;;;-1:-1:-1;1813:16:0;;;;;;;;;;;;;;;;;;;1762:79;1871:16;1854:13;;;;:33;;;;;;;;;1851:83;;;-1:-1:-1;1904:18:0;;;;;;;;;;;;;;;;;;;1851:83;1964:16;1947:13;;;;:33;;;;;;;;;1944:83;;;-1:-1:-1;1997:18:0;;;;;;;;;;;;;;;;;;;1944:83;-1:-1:-1;2039:23:0;;;;;;;;;;;;;;;;;1601:469;:::o;975:316::-;1015:13;;1097:16;1080:13;;;;:33;;;;;;;;;1076:168;;-1:-1:-1;;1133:13:0;:32;;-1:-1:-1;;1133:32:0;1149:16;1133:32;;;1180:21;;;;;;;;;;;;;;;;;1218:14;;1076:168;-1:-1:-1;;1257:26:0;;;;;;;;;;;;;;;;;975:316;:::o;1299:294::-;1336:13;;1416:16;1399:13;;;;:33;;;;;;;;;1395:142;;-1:-1:-1;;1448:13:0;:32;;-1:-1:-1;;1448:32:0;1464:16;1448:32;;;1504:21;;;;;;;;;;;;;;;;;1497:28;;1395:142;-1:-1:-1;;1556:29:0;;;;;;;;;;;;;;;;;1299:294;:::o;412:27::-;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract MyEnum {\r\n    // First we have to define an Enum\r\n    // and then you must create a variable of the enum type to actually use it in the contract.\r\n\r\n    // Defining the Enum\r\n    // Recomended Pascal Case for enum values\r\n\r\n    enum Status {\r\n        Pending,\r\n        Shipped,\r\n        Delivered,\r\n        Cancelled\r\n        }\r\n\r\n    Status public currentStatus; // Declare a variable of type Status\r\n\r\n    constructor() public {\r\n        currentStatus = Status.Pending; // Initializing the variable or setting the default\r\n    }\r\n\r\n    // working with enums and if-else\r\n\r\n    function setShipped () public returns (string memory){\r\n        string memory message;\r\n\r\n        if(currentStatus != Status.Shipped){\r\n\r\n            currentStatus = Status.Shipped;\r\n            message = \"Shipped\";\r\n\r\n            return message ;\r\n        }\r\n\r\n        return message= \"Already Shipped\";\r\n    }\r\n\r\n    function setDelivered () public returns(string memory){\r\n\r\n        string memory message;\r\n\r\n        if (currentStatus != Status.Delivered ) {\r\n\r\n            currentStatus = Status.Delivered;\r\n            message = \"Delivered\";\r\n\r\n            return message;\r\n        }\r\n\r\n         return \"Already Delivered\";\r\n    }\r\n\r\n    function setCancel () public returns(string memory){\r\n        string memory message;\r\n\r\n        if( currentStatus != Status.Cancelled){\r\n            currentStatus = Status.Cancelled;\r\n\r\n            return message = \"Cancelled\";\r\n        }\r\n\r\n        return message = \"Already Cancelled\";\r\n    }\r\n\r\n    function viewStatus () public view returns (string memory) {\r\n\r\n        if(currentStatus == Status.Pending) {\r\n            return \"Pending\";\r\n        }\r\n        if(currentStatus == Status.Shipped) {\r\n            return \"Shipped\";\r\n        }\r\n        if(currentStatus == Status.Delivered) {\r\n            return \"Delivered\";\r\n        }\r\n        if(currentStatus == Status.Cancelled) {\r\n            return \"Cancelled\";\r\n        }\r\n\r\n        return \"Unknown Status\";\r\n    }\r\n\r\n}",
+  "sourcePath": "D:/asaduzzaman_sunam/solidity-intro/contracts/Enum.sol",
+  "ast": {
+    "absolutePath": "/D/asaduzzaman_sunam/solidity-intro/contracts/Enum.sol",
+    "exportedSymbols": {
+      "MyEnum": [
+        144
+      ]
+    },
+    "id": 145,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 144,
+        "linearizedBaseContracts": [
+          144
+        ],
+        "name": "MyEnum",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "MyEnum.Status",
+            "id": 6,
+            "members": [
+              {
+                "id": 2,
+                "name": "Pending",
+                "nodeType": "EnumValue",
+                "src": "328:7:0"
+              },
+              {
+                "id": 3,
+                "name": "Shipped",
+                "nodeType": "EnumValue",
+                "src": "346:7:0"
+              },
+              {
+                "id": 4,
+                "name": "Delivered",
+                "nodeType": "EnumValue",
+                "src": "364:9:0"
+              },
+              {
+                "id": 5,
+                "name": "Cancelled",
+                "nodeType": "EnumValue",
+                "src": "384:9:0"
+              }
+            ],
+            "name": "Status",
+            "nodeType": "EnumDefinition",
+            "src": "305:99:0"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "name": "currentStatus",
+            "nodeType": "VariableDeclaration",
+            "scope": 144,
+            "src": "412:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Status_$6",
+              "typeString": "enum MyEnum.Status"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 7,
+              "name": "Status",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 6,
+              "src": "412:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Status_$6",
+                "typeString": "enum MyEnum.Status"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16,
+              "nodeType": "Block",
+              "src": "506:101:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 14,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 11,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "517:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 12,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "533:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 13,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Pending",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "533:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "517:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    }
+                  },
+                  "id": 15,
+                  "nodeType": "ExpressionStatement",
+                  "src": "517:30:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 17,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "496:2:0"
+            },
+            "returnParameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "506:0:0"
+            },
+            "scope": 144,
+            "src": "485:122:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 46,
+              "nodeType": "Block",
+              "src": "709:258:0",
+              "statements": [
+                {
+                  "assignments": [
+                    23
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 23,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46,
+                      "src": "720:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 22,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "720:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 24,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "720:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 28,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "757:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 26,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "774:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 27,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Shipped",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "774:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "757:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 41,
+                  "nodeType": "IfStatement",
+                  "src": "754:160:0",
+                  "trueBody": {
+                    "id": 40,
+                    "nodeType": "Block",
+                    "src": "789:125:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 32,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 29,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "806:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 30,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "822:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 31,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Shipped",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "822:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "806:30:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 33,
+                        "nodeType": "ExpressionStatement",
+                        "src": "806:30:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 36,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 34,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 23,
+                            "src": "851:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "53686970706564",
+                            "id": 35,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "861:9:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_ea8c21351dfe8c1ee7c9c97b7a7f4f3470464497a9a7c2d3167590f4716cbe75",
+                              "typeString": "literal_string \"Shipped\""
+                            },
+                            "value": "Shipped"
+                          },
+                          "src": "851:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "id": 37,
+                        "nodeType": "ExpressionStatement",
+                        "src": "851:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 38,
+                          "name": "message",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 23,
+                          "src": "894:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 21,
+                        "id": 39,
+                        "nodeType": "Return",
+                        "src": "887:14:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 44,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "message",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 23,
+                      "src": "933:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "416c72656164792053686970706564",
+                      "id": 43,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "942:17:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_0bd406113c0f394b1cc570d6fa4642c0d5ead3ff5ba890fd9daebf61fea35333",
+                        "typeString": "literal_string \"Already Shipped\""
+                      },
+                      "value": "Already Shipped"
+                    },
+                    "src": "933:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 21,
+                  "id": 45,
+                  "nodeType": "Return",
+                  "src": "926:33:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 47,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setShipped",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "676:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47,
+                  "src": "695:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "695:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "694:15:0"
+            },
+            "scope": 144,
+            "src": "656:311:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 74,
+              "nodeType": "Block",
+              "src": "1029:262:0",
+              "statements": [
+                {
+                  "assignments": [
+                    53
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 53,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 74,
+                      "src": "1042:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 52,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1042:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 54,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1042:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 58,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 55,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1080:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 56,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1097:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 57,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Delivered",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1097:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1080:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 71,
+                  "nodeType": "IfStatement",
+                  "src": "1076:168:0",
+                  "trueBody": {
+                    "id": 70,
+                    "nodeType": "Block",
+                    "src": "1116:128:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 62,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 59,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "1133:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 60,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "1149:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 61,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Delivered",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1149:16:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "1133:32:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 63,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1133:32:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 66,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 64,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 53,
+                            "src": "1180:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "44656c697665726564",
+                            "id": 65,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1190:11:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_84d438931365e92021ed104a3ccc6ebb11094926f21ebfcbd81ad9746006c510",
+                              "typeString": "literal_string \"Delivered\""
+                            },
+                            "value": "Delivered"
+                          },
+                          "src": "1180:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "id": 67,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1180:21:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 68,
+                          "name": "message",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 53,
+                          "src": "1225:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 51,
+                        "id": 69,
+                        "nodeType": "Return",
+                        "src": "1218:14:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "416c72656164792044656c697665726564",
+                    "id": 72,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "1264:19:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_f7d6e42a76e4a566aeb0f910aa5e36a0bb013a73d544ee0dba664f119dbee45b",
+                      "typeString": "literal_string \"Already Delivered\""
+                    },
+                    "value": "Already Delivered"
+                  },
+                  "functionReturnParameters": 51,
+                  "id": 73,
+                  "nodeType": "Return",
+                  "src": "1257:26:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 75,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setDelivered",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 48,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "997:2:0"
+            },
+            "returnParameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 75,
+                  "src": "1015:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1015:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1014:15:0"
+            },
+            "scope": 144,
+            "src": "975:316:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 102,
+              "nodeType": "Block",
+              "src": "1350:243:0",
+              "statements": [
+                {
+                  "assignments": [
+                    81
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 81,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 102,
+                      "src": "1361:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 80,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1361:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 82,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1361:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 86,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 83,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1399:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 84,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1416:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 85,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Cancelled",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1416:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1399:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 97,
+                  "nodeType": "IfStatement",
+                  "src": "1395:142:0",
+                  "trueBody": {
+                    "id": 96,
+                    "nodeType": "Block",
+                    "src": "1433:104:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 90,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 87,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "1448:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 88,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "1464:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 89,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Cancelled",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1464:16:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "1448:32:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 91,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1448:32:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 94,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 92,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 81,
+                            "src": "1504:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "43616e63656c6c6564",
+                            "id": 93,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1514:11:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_737a39c9fa82f68622f45ae205e399b0f0a7252140d9357a90220c542bb4ef4b",
+                              "typeString": "literal_string \"Cancelled\""
+                            },
+                            "value": "Cancelled"
+                          },
+                          "src": "1504:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 79,
+                        "id": 95,
+                        "nodeType": "Return",
+                        "src": "1497:28:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 100,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 98,
+                      "name": "message",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 81,
+                      "src": "1556:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "416c72656164792043616e63656c6c6564",
+                      "id": 99,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1566:19:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_e72ce3dbb3f103d302e29da1d33b268c1fca92407e17a3a9b64bcc4c5f3bbddb",
+                        "typeString": "literal_string \"Already Cancelled\""
+                      },
+                      "value": "Already Cancelled"
+                    },
+                    "src": "1556:29:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 79,
+                  "id": 101,
+                  "nodeType": "Return",
+                  "src": "1549:36:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 103,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setCancel",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 76,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1318:2:0"
+            },
+            "returnParameters": {
+              "id": 79,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 78,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 103,
+                  "src": "1336:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 77,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1336:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1335:15:0"
+            },
+            "scope": 144,
+            "src": "1299:294:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 142,
+              "nodeType": "Block",
+              "src": "1660:410:0",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 111,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 108,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1676:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 109,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1693:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Pending",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1693:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1676:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 115,
+                  "nodeType": "IfStatement",
+                  "src": "1673:79:0",
+                  "trueBody": {
+                    "id": 114,
+                    "nodeType": "Block",
+                    "src": "1709:43:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "50656e64696e67",
+                          "id": 112,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1731:9:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_4be840e351422c3b302abb79aa7db05560ead7e387e413320822a342fca3f54e",
+                            "typeString": "literal_string \"Pending\""
+                          },
+                          "value": "Pending"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 113,
+                        "nodeType": "Return",
+                        "src": "1724:16:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 119,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 116,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1765:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 117,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1782:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 118,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Shipped",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1782:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1765:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 123,
+                  "nodeType": "IfStatement",
+                  "src": "1762:79:0",
+                  "trueBody": {
+                    "id": 122,
+                    "nodeType": "Block",
+                    "src": "1798:43:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "53686970706564",
+                          "id": 120,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1820:9:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_ea8c21351dfe8c1ee7c9c97b7a7f4f3470464497a9a7c2d3167590f4716cbe75",
+                            "typeString": "literal_string \"Shipped\""
+                          },
+                          "value": "Shipped"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 121,
+                        "nodeType": "Return",
+                        "src": "1813:16:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 127,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 124,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1854:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 125,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1871:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 126,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Delivered",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1871:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1854:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 131,
+                  "nodeType": "IfStatement",
+                  "src": "1851:83:0",
+                  "trueBody": {
+                    "id": 130,
+                    "nodeType": "Block",
+                    "src": "1889:45:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "44656c697665726564",
+                          "id": 128,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1911:11:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_84d438931365e92021ed104a3ccc6ebb11094926f21ebfcbd81ad9746006c510",
+                            "typeString": "literal_string \"Delivered\""
+                          },
+                          "value": "Delivered"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 129,
+                        "nodeType": "Return",
+                        "src": "1904:18:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 135,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 132,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1947:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 133,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1964:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 134,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Cancelled",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1964:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1947:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 139,
+                  "nodeType": "IfStatement",
+                  "src": "1944:83:0",
+                  "trueBody": {
+                    "id": 138,
+                    "nodeType": "Block",
+                    "src": "1982:45:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "43616e63656c6c6564",
+                          "id": 136,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "2004:11:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_737a39c9fa82f68622f45ae205e399b0f0a7252140d9357a90220c542bb4ef4b",
+                            "typeString": "literal_string \"Cancelled\""
+                          },
+                          "value": "Cancelled"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 137,
+                        "nodeType": "Return",
+                        "src": "1997:18:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "556e6b6e6f776e20537461747573",
+                    "id": 140,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "2046:16:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_21cfb4c4a6f1b62c050c3bb4b79cde227ceaa1da94e5fa9e45fbaa0e382cd9c5",
+                      "typeString": "literal_string \"Unknown Status\""
+                    },
+                    "value": "Unknown Status"
+                  },
+                  "functionReturnParameters": 107,
+                  "id": 141,
+                  "nodeType": "Return",
+                  "src": "2039:23:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 143,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "viewStatus",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 104,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1621:2:0"
+            },
+            "returnParameters": {
+              "id": 107,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 106,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 143,
+                  "src": "1645:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 105,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1645:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1644:15:0"
+            },
+            "scope": 144,
+            "src": "1601:469:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 145,
+        "src": "68:2007:0"
+      }
+    ],
+    "src": "33:2042:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/asaduzzaman_sunam/solidity-intro/contracts/Enum.sol",
+    "exportedSymbols": {
+      "MyEnum": [
+        144
+      ]
+    },
+    "id": 145,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 144,
+        "linearizedBaseContracts": [
+          144
+        ],
+        "name": "MyEnum",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "MyEnum.Status",
+            "id": 6,
+            "members": [
+              {
+                "id": 2,
+                "name": "Pending",
+                "nodeType": "EnumValue",
+                "src": "328:7:0"
+              },
+              {
+                "id": 3,
+                "name": "Shipped",
+                "nodeType": "EnumValue",
+                "src": "346:7:0"
+              },
+              {
+                "id": 4,
+                "name": "Delivered",
+                "nodeType": "EnumValue",
+                "src": "364:9:0"
+              },
+              {
+                "id": 5,
+                "name": "Cancelled",
+                "nodeType": "EnumValue",
+                "src": "384:9:0"
+              }
+            ],
+            "name": "Status",
+            "nodeType": "EnumDefinition",
+            "src": "305:99:0"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "name": "currentStatus",
+            "nodeType": "VariableDeclaration",
+            "scope": 144,
+            "src": "412:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Status_$6",
+              "typeString": "enum MyEnum.Status"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 7,
+              "name": "Status",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 6,
+              "src": "412:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Status_$6",
+                "typeString": "enum MyEnum.Status"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16,
+              "nodeType": "Block",
+              "src": "506:101:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 14,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 11,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "517:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 12,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "533:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 13,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Pending",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "533:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "517:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    }
+                  },
+                  "id": 15,
+                  "nodeType": "ExpressionStatement",
+                  "src": "517:30:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 17,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "496:2:0"
+            },
+            "returnParameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "506:0:0"
+            },
+            "scope": 144,
+            "src": "485:122:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 46,
+              "nodeType": "Block",
+              "src": "709:258:0",
+              "statements": [
+                {
+                  "assignments": [
+                    23
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 23,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46,
+                      "src": "720:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 22,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "720:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 24,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "720:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 28,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "757:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 26,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "774:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 27,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Shipped",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "774:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "757:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 41,
+                  "nodeType": "IfStatement",
+                  "src": "754:160:0",
+                  "trueBody": {
+                    "id": 40,
+                    "nodeType": "Block",
+                    "src": "789:125:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 32,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 29,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "806:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 30,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "822:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 31,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Shipped",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "822:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "806:30:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 33,
+                        "nodeType": "ExpressionStatement",
+                        "src": "806:30:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 36,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 34,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 23,
+                            "src": "851:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "53686970706564",
+                            "id": 35,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "861:9:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_ea8c21351dfe8c1ee7c9c97b7a7f4f3470464497a9a7c2d3167590f4716cbe75",
+                              "typeString": "literal_string \"Shipped\""
+                            },
+                            "value": "Shipped"
+                          },
+                          "src": "851:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "id": 37,
+                        "nodeType": "ExpressionStatement",
+                        "src": "851:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 38,
+                          "name": "message",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 23,
+                          "src": "894:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 21,
+                        "id": 39,
+                        "nodeType": "Return",
+                        "src": "887:14:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 44,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "message",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 23,
+                      "src": "933:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "416c72656164792053686970706564",
+                      "id": 43,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "942:17:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_0bd406113c0f394b1cc570d6fa4642c0d5ead3ff5ba890fd9daebf61fea35333",
+                        "typeString": "literal_string \"Already Shipped\""
+                      },
+                      "value": "Already Shipped"
+                    },
+                    "src": "933:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 21,
+                  "id": 45,
+                  "nodeType": "Return",
+                  "src": "926:33:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 47,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setShipped",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "676:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47,
+                  "src": "695:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "695:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "694:15:0"
+            },
+            "scope": 144,
+            "src": "656:311:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 74,
+              "nodeType": "Block",
+              "src": "1029:262:0",
+              "statements": [
+                {
+                  "assignments": [
+                    53
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 53,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 74,
+                      "src": "1042:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 52,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1042:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 54,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1042:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 58,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 55,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1080:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 56,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1097:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 57,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Delivered",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1097:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1080:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 71,
+                  "nodeType": "IfStatement",
+                  "src": "1076:168:0",
+                  "trueBody": {
+                    "id": 70,
+                    "nodeType": "Block",
+                    "src": "1116:128:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 62,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 59,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "1133:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 60,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "1149:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 61,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Delivered",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1149:16:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "1133:32:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 63,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1133:32:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 66,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 64,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 53,
+                            "src": "1180:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "44656c697665726564",
+                            "id": 65,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1190:11:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_84d438931365e92021ed104a3ccc6ebb11094926f21ebfcbd81ad9746006c510",
+                              "typeString": "literal_string \"Delivered\""
+                            },
+                            "value": "Delivered"
+                          },
+                          "src": "1180:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "id": 67,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1180:21:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 68,
+                          "name": "message",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 53,
+                          "src": "1225:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 51,
+                        "id": 69,
+                        "nodeType": "Return",
+                        "src": "1218:14:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "416c72656164792044656c697665726564",
+                    "id": 72,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "1264:19:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_f7d6e42a76e4a566aeb0f910aa5e36a0bb013a73d544ee0dba664f119dbee45b",
+                      "typeString": "literal_string \"Already Delivered\""
+                    },
+                    "value": "Already Delivered"
+                  },
+                  "functionReturnParameters": 51,
+                  "id": 73,
+                  "nodeType": "Return",
+                  "src": "1257:26:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 75,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setDelivered",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 48,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "997:2:0"
+            },
+            "returnParameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 75,
+                  "src": "1015:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1015:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1014:15:0"
+            },
+            "scope": 144,
+            "src": "975:316:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 102,
+              "nodeType": "Block",
+              "src": "1350:243:0",
+              "statements": [
+                {
+                  "assignments": [
+                    81
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 81,
+                      "name": "message",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 102,
+                      "src": "1361:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 80,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1361:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 82,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1361:21:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 86,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 83,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1399:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 84,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1416:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 85,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Cancelled",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1416:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1399:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 97,
+                  "nodeType": "IfStatement",
+                  "src": "1395:142:0",
+                  "trueBody": {
+                    "id": 96,
+                    "nodeType": "Block",
+                    "src": "1433:104:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 90,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 87,
+                            "name": "currentStatus",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 8,
+                            "src": "1448:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 88,
+                              "name": "Status",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 6,
+                              "src": "1464:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                                "typeString": "type(enum MyEnum.Status)"
+                              }
+                            },
+                            "id": 89,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberName": "Cancelled",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1464:16:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Status_$6",
+                              "typeString": "enum MyEnum.Status"
+                            }
+                          },
+                          "src": "1448:32:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_Status_$6",
+                            "typeString": "enum MyEnum.Status"
+                          }
+                        },
+                        "id": 91,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1448:32:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 94,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 92,
+                            "name": "message",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 81,
+                            "src": "1504:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "43616e63656c6c6564",
+                            "id": 93,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1514:11:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_737a39c9fa82f68622f45ae205e399b0f0a7252140d9357a90220c542bb4ef4b",
+                              "typeString": "literal_string \"Cancelled\""
+                            },
+                            "value": "Cancelled"
+                          },
+                          "src": "1504:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "functionReturnParameters": 79,
+                        "id": 95,
+                        "nodeType": "Return",
+                        "src": "1497:28:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 100,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 98,
+                      "name": "message",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 81,
+                      "src": "1556:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "416c72656164792043616e63656c6c6564",
+                      "id": 99,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1566:19:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_e72ce3dbb3f103d302e29da1d33b268c1fca92407e17a3a9b64bcc4c5f3bbddb",
+                        "typeString": "literal_string \"Already Cancelled\""
+                      },
+                      "value": "Already Cancelled"
+                    },
+                    "src": "1556:29:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 79,
+                  "id": 101,
+                  "nodeType": "Return",
+                  "src": "1549:36:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 103,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setCancel",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 76,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1318:2:0"
+            },
+            "returnParameters": {
+              "id": 79,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 78,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 103,
+                  "src": "1336:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 77,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1336:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1335:15:0"
+            },
+            "scope": 144,
+            "src": "1299:294:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 142,
+              "nodeType": "Block",
+              "src": "1660:410:0",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 111,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 108,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1676:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 109,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1693:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Pending",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1693:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1676:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 115,
+                  "nodeType": "IfStatement",
+                  "src": "1673:79:0",
+                  "trueBody": {
+                    "id": 114,
+                    "nodeType": "Block",
+                    "src": "1709:43:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "50656e64696e67",
+                          "id": 112,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1731:9:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_4be840e351422c3b302abb79aa7db05560ead7e387e413320822a342fca3f54e",
+                            "typeString": "literal_string \"Pending\""
+                          },
+                          "value": "Pending"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 113,
+                        "nodeType": "Return",
+                        "src": "1724:16:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 119,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 116,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1765:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 117,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1782:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 118,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Shipped",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1782:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1765:31:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 123,
+                  "nodeType": "IfStatement",
+                  "src": "1762:79:0",
+                  "trueBody": {
+                    "id": 122,
+                    "nodeType": "Block",
+                    "src": "1798:43:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "53686970706564",
+                          "id": 120,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1820:9:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_ea8c21351dfe8c1ee7c9c97b7a7f4f3470464497a9a7c2d3167590f4716cbe75",
+                            "typeString": "literal_string \"Shipped\""
+                          },
+                          "value": "Shipped"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 121,
+                        "nodeType": "Return",
+                        "src": "1813:16:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 127,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 124,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1854:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 125,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1871:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 126,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Delivered",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1871:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1854:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 131,
+                  "nodeType": "IfStatement",
+                  "src": "1851:83:0",
+                  "trueBody": {
+                    "id": 130,
+                    "nodeType": "Block",
+                    "src": "1889:45:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "44656c697665726564",
+                          "id": 128,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1911:11:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_84d438931365e92021ed104a3ccc6ebb11094926f21ebfcbd81ad9746006c510",
+                            "typeString": "literal_string \"Delivered\""
+                          },
+                          "value": "Delivered"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 129,
+                        "nodeType": "Return",
+                        "src": "1904:18:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_Status_$6",
+                      "typeString": "enum MyEnum.Status"
+                    },
+                    "id": 135,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 132,
+                      "name": "currentStatus",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "1947:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 133,
+                        "name": "Status",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "1964:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Status_$6_$",
+                          "typeString": "type(enum MyEnum.Status)"
+                        }
+                      },
+                      "id": 134,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Cancelled",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1964:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Status_$6",
+                        "typeString": "enum MyEnum.Status"
+                      }
+                    },
+                    "src": "1947:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 139,
+                  "nodeType": "IfStatement",
+                  "src": "1944:83:0",
+                  "trueBody": {
+                    "id": 138,
+                    "nodeType": "Block",
+                    "src": "1982:45:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "hexValue": "43616e63656c6c6564",
+                          "id": 136,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "2004:11:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_737a39c9fa82f68622f45ae205e399b0f0a7252140d9357a90220c542bb4ef4b",
+                            "typeString": "literal_string \"Cancelled\""
+                          },
+                          "value": "Cancelled"
+                        },
+                        "functionReturnParameters": 107,
+                        "id": 137,
+                        "nodeType": "Return",
+                        "src": "1997:18:0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "556e6b6e6f776e20537461747573",
+                    "id": 140,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "2046:16:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_21cfb4c4a6f1b62c050c3bb4b79cde227ceaa1da94e5fa9e45fbaa0e382cd9c5",
+                      "typeString": "literal_string \"Unknown Status\""
+                    },
+                    "value": "Unknown Status"
+                  },
+                  "functionReturnParameters": 107,
+                  "id": 141,
+                  "nodeType": "Return",
+                  "src": "2039:23:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 143,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "viewStatus",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 104,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1621:2:0"
+            },
+            "returnParameters": {
+              "id": 107,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 106,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 143,
+                  "src": "1645:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 105,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1645:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1644:15:0"
+            },
+            "scope": 144,
+            "src": "1601:469:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 145,
+        "src": "68:2007:0"
+      }
+    ],
+    "src": "33:2042:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xbbDd247428f83EA8208892E08b32384C187294B5",
+      "transactionHash": "0x0c4607192a92669a40eed6d6c4ac7393d99c8d83e9574e47dd3086352908322f"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2024-11-23T08:57:34.960Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
